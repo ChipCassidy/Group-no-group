@@ -2,12 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    max-width: 1440px;
 }
 
 header {
     background: none;
     background-color: rgba(251, 63, 92, 1);
-    margin-bottom: 93px;
+    margin-bottom: 30px;
     padding: 23px 20px 27px 25px;
 }
 
@@ -40,4 +41,43 @@ header {
 
 #home {
     font-weight: 700;
+}
+
+.hello-section > img {
+    order: 1;
+}
+
+.hello-section  {
+    display: flex;
+    background-image: url(./DamaDamsMedia/triangle.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 75px 50px;
+    gap: 230px;
+}
+
+.hello-text {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-family: 'nunito' , sans-serif;
+    font-style: normal;
+    justify-content: center;
+}
+
+.hello-text > p {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.hello-text > h1 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.dif {
+    color: #FB3F5C;
 }
