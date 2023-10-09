@@ -20,6 +20,23 @@
     width: 238px;
 }
 
+.button2 {
+    background-color: #ffffff;
+    color: rgba(251, 63, 92, 1);
+    border-radius: 10px;
+    padding: 19px 57px;
+    text-decoration: none;
+    font-family: 'nunito' , sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 48px;
+    width: 245px;
+    border-color: rgba(251, 63, 92, 1);
+    border-style: solid;
+}
+
 header {
     background: none;
     background-color: rgba(251, 63, 92, 1);
@@ -47,7 +64,7 @@ header {
 .header-navigation > a {
     text-decoration:  none;
     color: #F8EEEF;
-    font-family: 'nunito' , sans-serif;
+    font-family: 'Nunito Sans' , sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -69,13 +86,14 @@ header {
     background-position: right;
     padding: 75px 50px;
     gap: 230px;
+    margin-bottom: 228px;
 }
 
 .hello-text {
     display: flex;
     flex-direction: column;
     color: #000;
-    font-family: 'nunito' , sans-serif;
+    font-family: 'Nunito Sans' , sans-serif;
     font-style: normal;
     justify-content: center;
 }
@@ -95,4 +113,49 @@ header {
 
 .dif {
     color: #FB3F5C;
+}
+
+.programs {
+    display: flex;
+    margin-bottom: 216px;
+    margin: 0 120px;
+    gap: 200px;
+    margin-bottom: 224px;
+}
+
+.programs > img {
+    width: 369px;
+    height: 452px;
+}
+
+.programs-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.programs-text > h1 {
+    color: #191018;
+    font-family: 'Nunito Sans' , sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    text-transform: capitalize;
+}
+
+.programs-text > p {
+    font-size: 24px;
+    font-family: 'Nunito Sans' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    text-transform: lowercase;
+    margin-bottom: 48px;
+}
+
+.buttons {
+    gap: 39px;
+    display: flex;
 }
