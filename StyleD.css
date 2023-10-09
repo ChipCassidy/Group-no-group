@@ -159,3 +159,12 @@ header {
     gap: 39px;
     display: flex;
 }
+
+.progress {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 623px;
+    height: 106px;
+    gap: 10px;
+}
