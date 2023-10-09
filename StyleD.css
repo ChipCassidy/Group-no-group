@@ -171,4 +171,35 @@ header {
 
 .numbers {
     display: flex;
+    background: none;
+    background-color: #FEC5CE;
+    justify-content: space-around;
+    padding: 62px 0;
+    margin-bottom: 143px;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.number > h1 {
+    color: #191018;
+    font-family: 'Nunito Sans' , sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.number > p {
+    color: #191018;
+    font-family: 'Nunito' , sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
 }
