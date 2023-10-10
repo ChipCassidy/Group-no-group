@@ -35,6 +35,22 @@
     width: 245px;
     border-color: rgba(251, 63, 92, 1);
     border-style: solid;
+    max-width: 1440px;
+}
+
+.button {
+    background-color: #FB3F5C;
+    border-radius: 10px;
+    padding: 19px 57px;
+    text-decoration: none;
+    color: #F8EEEF;
+    font-family: 'nunito' , sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 48px;
+    width: 238px;
 }
 
 header {
@@ -73,6 +89,45 @@ header {
 
 #home {
     font-weight: 700;
+}
+
+.hello-section > img {
+    order: 1;
+}
+
+.hello-section  {
+    display: flex;
+    background-image: url(./DamaDamsMedia/triangle.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 75px 50px;
+    gap: 230px;
+}
+
+.hello-text {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-family: 'nunito' , sans-serif;
+    font-style: normal;
+    justify-content: center;
+}
+
+.hello-text > p {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.hello-text > h1 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.dif {
+    color: #FB3F5C;
 }
 
 .hello-section > img {
