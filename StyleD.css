@@ -168,3 +168,54 @@ header {
     height: 106px;
     gap: 10px;
 }
+
+.photoshop {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.photoshop > p {
+    position: absolute;
+    left: 164px;
+    color: #FFF;
+    font-family: 'Nunito Sans' , sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.figma {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.figma > p {
+    position: absolute;
+    left: 114px;
+    color: #FFF;
+    font-family: 'Nunito Sans' , sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.al {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.al > p {
+    position: absolute;
+    left: 178px;
+    color: #FFF;
+    font-family: 'Nunito Sans' , sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
