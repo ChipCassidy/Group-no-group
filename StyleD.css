@@ -355,3 +355,51 @@ header {
     font-weight: 400;
     line-height: 27px; 
 }
+
+footer {
+    background: none;
+    background-color: rgba(251, 63, 92, 0.9);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 48px;
+    align-items: center;
+    padding-top: 68px;
+}
+
+.tel,
+.gmail,
+.adress {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    margin-bottom: 85px;
+}
+
+.tel > a,
+.gmail > a,
+.adress > p {
+    text-decoration: none;
+    color: #F8EEEF;
+    font-family: 'Nunito Sans' , sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.footer:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 67px;
+}
